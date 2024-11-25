@@ -1,0 +1,1 @@
+# finstmt-config-editor
