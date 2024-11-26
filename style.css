@@ -1,0 +1,46 @@
+.card-header {
+  background-color: #f1f3f5;
+}
+
+.list-group-item.active {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.table th {
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.table td {
+  vertical-align: middle;
+  padding: 0.5rem;
+}
+
+.table input.form-control-sm,
+.table select.form-select-sm {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.table input.form-control-sm {
+  min-width: 80px;
+}
+
+.table textarea.form-control-sm {
+  font-size: 0.875rem;
+}
+
+.table .form-check {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.form-check-inline {
+  margin-right: 0.5rem;
+}
+
+.table td .form-check {
+  margin: 0;
+}
