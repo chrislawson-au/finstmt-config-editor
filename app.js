@@ -13,10 +13,8 @@ createApp({
     selectStatement(statement) {
       this.selectedStatement = statement;
     },
-    addItem() {
-      if (!this.selectedStatement) return;
-
-      this.selectedStatement.items.push({
+    addItem(statement) {
+      statement.items.push({
         key: "",
         display_name: "New Item",
         extract_names: [],
@@ -33,9 +31,8 @@ createApp({
         },
       });
     },
-    removeItem(index) {
-      if (!this.selectedStatement) return;
-      this.selectedStatement.items.splice(index, 1);
+    removeItem(statement, index) {
+      statement.items.splice(index, 1);
     },
     updateExtractNames(item) {
       item.extract_names = item.extract_names_text
